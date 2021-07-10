@@ -1,0 +1,21 @@
+@import "./../../../assets/style/base/color/color";
+.Support{
+    $sizeBox:60px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-green-main;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    height: $sizeBox;
+    width: $sizeBox;
+    border-radius: 50px;
+    cursor: pointer;
+    &-icon{
+        $sizeIcon: 35px ;
+        color: $color-white-main;
+        width:$sizeIcon !important;
+        height: $sizeIcon !important ;
+    }
+}
