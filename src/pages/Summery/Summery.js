@@ -8,6 +8,7 @@ import imgCategory5 from "./../../assets/pics/main category/mainCategory5.jpg"
 import imgCategory6 from "./../../assets/pics/main category/mainCategory6.jpg"
 import WhyUs from "./WhyUs/WhyUs";
 import MultiSlider from "../../components/subComponents/MultiSlider/MultiSlider";
+import NewsLetters from "../../components/subComponents/NewsLetters/NewsLetters";
 
 const Summery = () => {
     return ( 
@@ -46,12 +47,15 @@ const Summery = () => {
           </div>
 
           <div className="my-5 container-custom mx-auto">
-            
             <MultiSlider />
           </div>
 
           <div className="Summery-why-us container-custom mx-auto my-16  ">
             <WhyUs /> 
+          </div>
+
+          <div className="Summery-news-letters container-custom mx-auto mb-10">
+            <NewsLetters />
           </div>
 
         </div>
