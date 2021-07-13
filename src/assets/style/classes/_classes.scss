@@ -5,3 +5,7 @@
 .d-none-i{
     display: none !important;
 }
+
+.container-custom{
+    @apply container sm:px-10 ;
+}

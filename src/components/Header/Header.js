@@ -1,6 +1,7 @@
 import "./Header.scss";
 import Popup from "../Popup/Popup";
 import { useState } from "react";
+// import imgSrc from "./../../assets/pics/"
 
 
 const Header = () => {
@@ -15,19 +16,28 @@ const Header = () => {
     return ( 
         <div className="Header">
             <div className="Header-up">
-                <button
-                onClick={
-                    () => {
-                        setPopupOpen(true)
-                    }
-                }
-                >ورود / ثبت نام</button>
-            </div>
-            <div className="Header-down">
-                Header down
+               
+                    <button
+                        className="btn"
+                        onClick={
+                            () => {
+                                setPopupOpen(true)
+                            }
+                        }
+                    >
+                        ورود / ثبت نام
+                    </button>
+                    
+                
             </div>
 
-            <Popup open={popupOpen} handle={handlePopup} />
+            <div className="Header-down">
+                down
+            </div>
+
+            <Popup open={popupOpen} handle={handlePopup} >
+                test popup
+            </Popup >
         </div>
      );
 }
