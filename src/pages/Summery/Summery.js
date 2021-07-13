@@ -6,14 +6,16 @@ import imgCategory3 from "./../../assets/pics/main category/mainCategory3.jpg"
 import imgCategory4 from "./../../assets/pics/main category/mainCategory4.jpg"
 import imgCategory5 from "./../../assets/pics/main category/mainCategory5.jpg"
 import imgCategory6 from "./../../assets/pics/main category/mainCategory6.jpg"
-
+import WhyUs from "./WhyUs/WhyUs";
 
 const Summery = () => {
     return ( 
         <div className="Summery">
+
           <div className="Summery-slider">
             <Slider/>
           </div>
+
           <div className="Summery-main-category container-custom mx-auto flex justify-center  sm:justify-around  flex-wrap py-16">
             <div className="Summery-main-category-box ">
               <img src={imgCategory1} className=""/>
@@ -41,6 +43,11 @@ const Summery = () => {
               <span className="overlay"></span>
             </div>
           </div>
+
+          <div className="Summery-why-us container-custom mx-auto  ">
+            <WhyUs /> 
+          </div>
+
         </div>
      );
 }
