@@ -2,11 +2,11 @@ import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import "./Slider.scss";
-import ImgSlider1 from "./../../assets/pics/slider/slider1.jpg" ;
-import ImgSlider2 from "./../../assets/pics/slider/slider2.jpg" ;
-import ImgSlider3 from "./../../assets/pics/slider/slider3.jpg" ;
-import ImgSlider4 from "./../../assets/pics/slider/slider4.jpg" ;
-import ImgSlider5 from "./../../assets/pics/slider/slider5.jpg" ;
+import ImgSlider1 from "./../../../assets/pics/slider/slider1.jpg" ;
+import ImgSlider2 from "./../../../assets/pics/slider/slider2.jpg" ;
+import ImgSlider3 from "./../../../assets/pics/slider/slider3.jpg" ;
+import ImgSlider4 from "./../../../assets/pics/slider/slider4.jpg" ;
+import ImgSlider5 from "./../../../assets/pics/slider/slider5.jpg" ;
 
 
 const Slider = () => {

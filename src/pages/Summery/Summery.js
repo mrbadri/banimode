@@ -1,5 +1,5 @@
 import "./Summery.scss";
-import Slider from "../../components/subComponents/Slider";
+import Slider from "../../components/subComponents/Slider/Slider";
 import imgCategory1 from "./../../assets/pics/main category/mainCategory1.jpg"
 import imgCategory2 from "./../../assets/pics/main category/mainCategory2.jpg"
 import imgCategory3 from "./../../assets/pics/main category/mainCategory3.jpg"
@@ -7,6 +7,7 @@ import imgCategory4 from "./../../assets/pics/main category/mainCategory4.jpg"
 import imgCategory5 from "./../../assets/pics/main category/mainCategory5.jpg"
 import imgCategory6 from "./../../assets/pics/main category/mainCategory6.jpg"
 import WhyUs from "./WhyUs/WhyUs";
+import MultiSlider from "../../components/subComponents/MultiSlider/MultiSlider";
 
 const Summery = () => {
     return ( 
@@ -44,7 +45,12 @@ const Summery = () => {
             </div>
           </div>
 
-          <div className="Summery-why-us container-custom mx-auto  ">
+          <div className="my-5 container-custom mx-auto">
+            
+            <MultiSlider />
+          </div>
+
+          <div className="Summery-why-us container-custom mx-auto my-16  ">
             <WhyUs /> 
           </div>
 

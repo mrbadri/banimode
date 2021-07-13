@@ -2,7 +2,7 @@
     &-slider{}
     &-main-category{
         &-box{
-            @apply  my-4 relative hover:shadow-sm overflow-hidden rounded-xl ; 
+            @apply  my-1 relative hover:shadow-sm overflow-hidden rounded-xl ; 
             img{}
             .overlay{
                 @apply absolute w-full h-full inset-0 hover:bg-gray-900  opacity-20 transition cursor-pointer ; 
