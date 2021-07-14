@@ -9,6 +9,13 @@ import imgCategory6 from "./../../assets/pics/main category/mainCategory6.jpg"
 import WhyUs from "./WhyUs/WhyUs";
 import MultiSlider from "../../components/subComponents/MultiSlider/MultiSlider";
 import NewsLetters from "../../components/subComponents/NewsLetters/NewsLetters";
+import imgSuggestionA1 from "./../../assets/pics/suggestion/suggestionA1.jpg";
+import imgSuggestionA2 from "./../../assets/pics/suggestion/suggestionA2.jpg";
+import imgSuggestionB1 from "./../../assets/pics/suggestion/suggestionB1.jpg";
+import imgSuggestionB2 from "./../../assets/pics/suggestion/suggestionB2.jpg";
+import imgSuggestionB3 from "./../../assets/pics/suggestion/suggestionB3.jpg";
+import imgSuggestionB4 from "./../../assets/pics/suggestion/suggestionB4.jpg";
+
 
 const Summery = () => {
     return ( 
@@ -23,7 +30,6 @@ const Summery = () => {
               <img src={imgCategory1} className=""/>
               <span className="overlay" ></span>
             </div>
-            
             <div className="Summery-main-category-box ">
               <img src={imgCategory2}/>
               <span className="overlay" ></span>
@@ -46,8 +52,31 @@ const Summery = () => {
             </div>
           </div>
 
-          <div className="my-5 container-custom mx-auto">
+         
+          <div className="my-5 co flex-growntainer-custom mx-auto">
             <MultiSlider />
+          </div>
+         
+          <div className="suggestion flex flex-col flex-wrap container-custom mx-auto max-w-full justify-center mb-20">
+            <div className="suggestion-row  flex justify-center max-w-full">
+              <img src={imgSuggestionA1} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
+              <img src={imgSuggestionA2} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto  " />
+            </div>
+          </div>
+
+          <div className="my-5 co flex-growntainer-custom mx-auto">
+            <MultiSlider />
+          </div>
+
+          <div className="suggestion flex flex-col flex-wrap container-custom mx-auto max-w-full justify-center mb-20">
+            <div className="suggestion-row mb-3 md:mb-8 flex justify-center max-w-full">
+              <img src={imgSuggestionB1} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
+              <img src={imgSuggestionB2} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto  " />
+            </div>
+            <div className="suggestion-row  mb-3 md:mb-8 flex justify-center max-w-full">
+              <img src={imgSuggestionB3} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
+              <img src={imgSuggestionB4} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto   " />
+            </div>
           </div>
 
           <div className="Summery-why-us container-custom mx-auto my-16  ">
