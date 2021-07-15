@@ -1,0 +1,45 @@
+@import "./../../../assets//style/base/base";
+
+
+
+
+.Loading{
+   z-index: 99999999999;
+   background-color: rgba(0, 0, 0, 0.8);
+   backdrop-filter: blur(2px);
+   animation: load 0.1s 4s both ;
+
+   @keyframes load {
+       0%{
+           opacity: 1;
+       }
+
+       95%{
+        opacity: 0;
+        transform: translateX(0);
+
+       }
+       100%{
+        opacity: 0;
+        transform: translateX(110vw);
+
+       }
+       
+   }
+
+  &-text{
+      transform: translateY(-70px);
+      span{
+          @apply text-3xl  uppercase font-semibold; 
+          background-color: #30ee96;
+          background-image: linear-gradient(118deg, #30ee96 0%, #30ee96 100%);
+          text-shadow:  1px 1px 4px  #30ee96;
+
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+
+      }
+    }
+        
+    
+}
