@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.2",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
@@ -11,7 +13,11 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-lottie": "^1.2.3",
+    "react-multi-carousel": "^2.6.3",
+    "react-responsive-carousel": "^3.2.19",
     "react-scripts": "4.0.3",
+    "react-slideshow-image": "^3.5.0",
+    "react-spring": "^9.2.3",
     "sass": "^1.35.1",
     "web-vitals": "^1.1.2"
   },

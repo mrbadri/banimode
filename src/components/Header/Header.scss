@@ -1,0 +1,12 @@
+.Header{
+    background-color:blue ;
+
+    &-up{
+        background-color: blueviolet;
+       
+    }
+
+    &-down{
+        background-color: chocolate;
+    }
+}

@@ -1,0 +1,33 @@
+.WhyUs{
+    &-box{
+        @apply my-5  transition  cursor-pointer  rounded-full  relative flex flex-col items-center justify-start  absolute rounded-full  w-80 h-80 ; 
+        background-image: linear-gradient( to bottom , rgb(255, 255, 255) 40% , rgb(238, 238, 238));
+        &:hover{
+            background-image: linear-gradient( to bottom , rgb(255, 255, 255) 40% , rgb(228, 228, 228));
+        }
+        &-img{
+            @apply  relative w-4/12  mb-3; 
+            animation: up-down 5s infinite both;
+            @keyframes up-down {
+                0%{
+                    transform: translateY(0);
+                }
+                50%{
+                    transform: translateY(-10px);
+                }
+                100%{
+                    transform: translateY(0);
+                }
+            }
+        }
+        &-title{
+            @apply relative mb-3 text-gray-500 font-semibold text-xl ; 
+        }
+        &-text{
+            @apply  relative text-gray-400 w-9/12 text-center text-base ; 
+        }
+        &-bg{
+            @apply  absolute inset-5 rounded-full bg-white ; 
+        }
+    }
+}
