@@ -1,9 +1,58 @@
 .Header{
-    background-color:blue ;
     &-up{
-        background-color: blueviolet;
+      background-color: azure;
+      display: flex;
+      justify-content: space-between;
+        .icons{
+           margin-right: 50px;
+           margin-top: 25px;
+           width: 50px;
+           height: 40px;
+        }
+        .iconsearch{
+           padding-right: 12px;
+           padding-left:12px;
+           width: 50px;
+           height: 30px;
+        }
+         .box-right{
+            margin-top: 20px;
+            display: flex;
+            line-height: 44px;
+            border-radius: 28px;
+            background-color: #00bf6f;
+            color: #fff;
+            font-size: 15px;
+            padding:0 24px;
+         }
+         .box-center{
+            margin-top: 20px;
+            display: flex;
+            line-height: 44PX;
+            border-radius: 28PX;
+            background-color: rgb(226, 229, 229);
+            font-size: 15PX;
+            flex-basis: 50%;
+            align-items: center;
+         }
+         .box-left{
+            padding-left: 50px;
+            margin-top: 20px;
+            flex-basis: 25%;
+            text-align: left;
+            transition: 1s all;
+         }
     }
     &-down{
-        background-color: chocolate;
-    }
+        position: relative;
+        text-align: center;
+        margin-bottom: 15px;
+        padding-right: 30px;
+        margin-top:15px;
+        position: relative;
+        font-size: 15px;
+        display: inline-block;
+        border-bottom: 1px solid #fff;
+        transition: 0.3s;
+     }
 }
