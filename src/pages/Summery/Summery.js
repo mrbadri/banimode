@@ -83,7 +83,7 @@ const Summery = () => {
             <WhyUs /> 
           </div>
 
-          <div className="Summery-news-letters container-custom mx-auto mb-10">
+          <div className="Summery-news-letters container-custom mx-auto mb-24">
             <NewsLetters />
           </div>
 
