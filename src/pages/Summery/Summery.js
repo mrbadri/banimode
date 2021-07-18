@@ -8,7 +8,7 @@ import imgCategory5 from "./../../assets/pics/main category/mainCategory5.jpg"
 import imgCategory6 from "./../../assets/pics/main category/mainCategory6.jpg"
 import WhyUs from "./WhyUs/WhyUs";
 import MultiSlider from "../../components/subComponents/MultiSlider/MultiSlider";
-import NewsLetters from "../../components/subComponents/NewsLetters/NewsLetters";
+import NewsLetters from "./../../components/subComponents/NewsLetters/NewsLetters";
 import imgSuggestionA1 from "./../../assets/pics/suggestion/suggestionA1.jpg";
 import imgSuggestionA2 from "./../../assets/pics/suggestion/suggestionA2.jpg";
 import imgSuggestionB1 from "./../../assets/pics/suggestion/suggestionB1.jpg";
@@ -20,7 +20,6 @@ import imgSuggestionB4 from "./../../assets/pics/suggestion/suggestionB4.jpg";
 const Summery = () => {
     return ( 
         <div className="Summery">
-
           <div className="Summery-slider">
             <Slider/>
           </div>

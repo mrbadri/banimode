@@ -1,6 +1,4 @@
-const data =  [
-    {title: "T" , list : ["1" , "2" , "3" , "4"]}
-]
+
 const FooterList = (props) => {
     return ( 
         <div className="FooterList">
