@@ -16,36 +16,38 @@ const Header = () => {
     return (
         <div className="Header">
             <div className="Header-up">
-                    <img src={headericonshopping} className="icons" alt="banimode" />
 
-                    <div className="box-right">
+                <img src={headericonshopping} className="icons" alt="banimode" />
+                <p>
+                    github
+                </p>
+
+                <div className="box-right">
                     <button
+                    className="btn"
                         onClick={
                             () => {
                                 setPopupOpen(true)
                             }
                         }
-                        
                     >ورود / ثبت نام</button>
-                    
-
                 </div>
+
                 <div className="box-center">
                     <img src={headericonsearch} className=" iconsearch " alt="banimode" />
-                    <form>
-                    <input type="text" placeholder= "جستجو در میان بیش از ۴۰۰ مورد" />
-                    </form>
+                    <input className="border-none focus:outline-none bg-transparent w-full text-gray-700" tayp="text" placeholder="جستجو در میان بیش از ۴۰۰ مورد" />
                 </div>
 
                 <div className="box-left">
                     <img src={headerlogo3}  alt="banimode" />
                 </div>
             </div>
+
             <div className="Header-down">
-
             </div>
-
-            <Popup open={popupOpen} handle={handlePopup} />
+             <Popup open={popupOpen} handle={handlePopup}>
+                 test popup
+             </Popup>
         </div>
     );
 }

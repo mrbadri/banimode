@@ -1,11 +1,13 @@
+import Summery from "../../pages/Summery/Summery";
 import "./Section.scss" ;
 import Support from "./Support/Support";
+
 
 
 const Section = () => {
     return ( 
         <div className="Section">
-            Section
+            <Summery /> 
             <Support />
         </div>
      );

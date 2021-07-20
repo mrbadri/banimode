@@ -1,0 +1,35 @@
+@import "./../../../assets//style/base/base" ; 
+
+.ProductView{
+    &-header{
+        &-discount{
+            @apply bg-red-500 absolute    flex justify-center items-center text-white  ; 
+            transform: rotate(-45deg);
+            width: 100px;
+            top: 15px;
+            left: -25px;
+        }
+
+        &-interest{
+            @apply absolute bottom-4 right-4 text-gray-100 ; 
+        }
+    }
+    &-footer{
+        &-title{}
+        &-info{
+            direction: rtl;
+            &-sub-title{
+                
+            }
+            &-price{
+                @apply text-base ; 
+                color: $color-green-main;
+            }
+        }
+        &-sizes{
+            &-box{
+                @apply  ml-2 text-gray-800 border-2 p-1 rounded-md text-xs flex justify-center items-center ; 
+            }
+        }
+    }
+}

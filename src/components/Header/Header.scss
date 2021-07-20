@@ -1,58 +1,52 @@
 .Header{
     &-up{
-      background-color: azure;
+      background-color: #fff;
       display: flex;
-      justify-content: space-between;
-        .icons{
-           margin-right: 50px;
-           margin-top: 25px;
+     
+          .icons{
+           margin-right: 75px;
+           margin-top: 30px;
            width: 50px;
-           height: 40px;
-        }
-        .iconsearch{
-           padding-right: 12px;
-           padding-left:12px;
+           height: 50px;
+          }
+          .box-right{
+           margin-right: 10px;
+           margin-top: 30px;
+           display: flex;
+           border-radius: 28px;
+           background-color: #00bf6f;
+           color: #fff;
+           font-size: 18px;
+           padding:0 25px;
+          }
+          .iconsearch{
+           padding-right: 10px;
+           padding-left:10px;
            width: 50px;
-           height: 30px;
-        }
-         .box-right{
-            margin-top: 20px;
+           height: 35px;
+          }
+          .box-center{
+            margin-right: 120px;
+            margin-top: 30px;
             display: flex;
-            line-height: 44px;
-            border-radius: 28px;
-            background-color: #00bf6f;
-            color: #fff;
-            font-size: 15px;
-            padding:0 24px;
-         }
-         .box-center{
-            margin-top: 20px;
-            display: flex;
-            line-height: 44PX;
             border-radius: 28PX;
-            background-color: rgb(226, 229, 229);
-            font-size: 15PX;
-            flex-basis: 50%;
+            background-color: rgb(244, 248, 248);
+            font-size: 18PX;
+            flex-basis: 47%;
             align-items: center;
-         }
-         .box-left{
-            padding-left: 50px;
-            margin-top: 20px;
-            flex-basis: 25%;
-            text-align: left;
-            transition: 1s all;
-         }
-    }
+          }
+          .box-left{
+            margin-right: 80px;
+            margin-top: 32px;
+            flex-basis: 21%;
+          }
+       }
     &-down{
         position: relative;
         text-align: center;
-        margin-bottom: 15px;
-        padding-right: 30px;
-        margin-top:15px;
         position: relative;
-        font-size: 15px;
         display: inline-block;
         border-bottom: 1px solid #fff;
         transition: 0.3s;
-     }
+       }
 }

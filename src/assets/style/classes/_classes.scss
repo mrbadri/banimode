@@ -1,7 +1,21 @@
+@import "./btn";
+
 .d-none{
     display: none;
 }
 
 .d-none-i{
     display: none !important;
+}
+
+.container-custom{
+    @apply container sm:px-10 ;
+}
+
+.rtl{
+    direction: rtl;
+}
+
+.ltr{
+    direction: ltr;
 }

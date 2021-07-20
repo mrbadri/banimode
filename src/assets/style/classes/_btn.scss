@@ -1,0 +1,18 @@
+@import "./../base/color/color" ; 
+
+.btn-A{
+    @apply  text-white flex justify-center items-center  ; 
+    background-color: $color-green-main;
+}
+
+.btn-B{
+    @apply   flex justify-center items-center  ; 
+    border: 1px solid $color-green-main ;
+    color: $color-green-main;
+}
+
+.btn-C{
+    @apply   flex justify-center items-center  ; 
+    border: 1px solid rgb(70, 70, 70) ;
+    color: $color-green-main;
+}
