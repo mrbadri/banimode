@@ -18,9 +18,6 @@ const Header = () => {
             <div className="Header-up">
 
                 <img src={headericonshopping} className="icons" alt="banimode" />
-                <p>
-                    github
-                </p>
 
                 <div className="box-right">
                     <button
