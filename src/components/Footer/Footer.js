@@ -99,10 +99,10 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="Footer-down-right flex items-center justify-end ">
-                    <img src={imglicense1} className="w-1/6 cursor-pointer mx-1" />
+                    <img src={imglicense1} className="w-1/6 cursor-pointer ml-1" />
                     <img src={imglicense2} className="w-1/6 cursor-pointer mx-1" />
                     <img src={imglicense3} className="w-1/6 cursor-pointer mx-1" />
-                    <img src={imglicense4} className="w-1/6 cursor-pointer mx-1" />
+                    <img src={imglicense4} className="w-1/6 cursor-pointer mr-1" />
                 </div>
             </div>
             <div className="Footer-copy-right container-custom mx-auto text-sm flex text-gray-400 justify-between">

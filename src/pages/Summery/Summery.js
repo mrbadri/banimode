@@ -20,7 +20,6 @@ import imgSuggestionB4 from "./../../assets/pics/suggestion/suggestionB4.jpg";
 const Summery = () => {
     return ( 
         <div className="Summery">
-
           <div className="Summery-slider">
             <Slider/>
           </div>
