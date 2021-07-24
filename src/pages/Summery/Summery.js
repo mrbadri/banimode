@@ -69,12 +69,12 @@ const Summery = () => {
 
           <div className="suggestion flex flex-col flex-wrap container-custom mx-auto max-w-full justify-center mb-20">
             <div className="suggestion-row mb-3 md:mb-8 flex justify-center max-w-full">
-              <img src={imgSuggestionB1} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
-              <img src={imgSuggestionB2} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto  " />
+              <img src={imgSuggestionB1} className="rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
+              <img src={imgSuggestionB2} className="rounded-lg cursor-pointer shadow w-5/12 flex-auto  " />
             </div>
             <div className="suggestion-row  mb-3 md:mb-8 flex justify-center max-w-full">
-              <img src={imgSuggestionB3} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
-              <img src={imgSuggestionB4} className=" rounded-lg cursor-pointer shadow w-5/12 flex-auto   " />
+              <img src={imgSuggestionB3} className="rounded-lg cursor-pointer shadow w-5/12 flex-auto ml-3 md:ml-8   " />
+              <img src={imgSuggestionB4} className="rounded-lg cursor-pointer shadow w-5/12 flex-auto   " />
             </div>
           </div>
 

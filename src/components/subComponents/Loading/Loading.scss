@@ -6,8 +6,9 @@
 .Loading{
    z-index: 99999999999;
    background-color: rgba(0, 0, 0, 0.8);
+   background-color: rgba(255, 255, 255, 1);
    backdrop-filter: blur(2px);
-   animation: load 0.1s 4s both ;
+   animation: load 0.1s 5s both ;
 
    @keyframes load {
        0%{
@@ -33,7 +34,7 @@
           @apply text-3xl  uppercase font-semibold; 
           background-color: #30ee96;
           background-image: linear-gradient(118deg, #30ee96 0%, #30ee96 100%);
-          text-shadow:  1px 1px 4px  #30ee96;
+          text-shadow:  1px 1px 3px  #26d885;
 
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;

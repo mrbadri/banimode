@@ -5,6 +5,7 @@ import imgLogo from "./../../assets/pics/banilogo.png";
 import SearchRoundedIcon from '@material-ui/icons/SearchRounded';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import { Category } from "@material-ui/icons";
+import Auth from "../subComponents/Auth/Auth";
 
 const categoryListData = [
     {titile: "زنانه" , subTitle : []} ,
@@ -69,7 +70,7 @@ const Header = () => {
 
             {/* popup */}
             <Popup open={popupOpen} handle={handlePopup} >
-                test popup
+                <Auth></Auth>
             </Popup >
         </div>
      );

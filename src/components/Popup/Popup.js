@@ -2,10 +2,10 @@ import "./Popup.scss";
 
 const Popup = (props) => {
     return ( 
-        <div className={"Popup " +  props.open } id="popup-around" onClick={props.handle}>
-            <div className="Popup-content" id="popup-content">
+        <div className={"Popup flex justify-center items-center fixed inset-0 z-40  " +  props.open } id="popup-around" onClick={props.handle}>
+            
                 {props.children}
-            </div>
+            
         </div>
      );
 }
