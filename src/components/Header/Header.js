@@ -49,7 +49,7 @@ const Header = () => {
 
                 <div className="box-center  w-6/12 flex items-center relative h-full">
                     <SearchRoundedIcon className="iconsearch absolute right-3 text-gray-800" />
-                    <input className="border-none focus:outline-none bg-transparent w-full h-full px-12 h-full text-gray-700 bg-gray-100 rounded-full" tayp="text" placeholder="جستجو در میان بیش از ۴۰۰ مورد" />
+                    <input className="border-none focus:outline-none bg-transparent w-full h-full px-12  text-gray-700 bg-gray-100 rounded-full" tayp="text" placeholder="جستجو در میان بیش از ۴۰۰ مورد" />
                 </div>
 
                 <div className="box-left h-full flex items-center justify-end">

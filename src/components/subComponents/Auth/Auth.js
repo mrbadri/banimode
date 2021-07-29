@@ -15,7 +15,7 @@ const Auth = () => {
         }else{
             setComponentJSX(<Login handleJSX={handleJSX}></Login>);
         }
-    });
+    },[]);
     
     const handleJSX = (position) =>{
        setPosition(position);
