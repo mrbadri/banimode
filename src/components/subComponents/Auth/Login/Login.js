@@ -1,7 +1,8 @@
 const Login = (props) => {
 
-    const handleLogin = () =>{
+    const handleLogin = (e) =>{
         props.handleJSX("CodeActive") ; 
+        e.preventDefault()
     }
 
     return ( 
