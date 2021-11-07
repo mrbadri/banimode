@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import './App.scss';
 import Layout from './components/Layout/Layout';
+<<<<<<< HEAD
 
 const user= { 
 	Id:0 ,
@@ -48,6 +49,9 @@ localStorage.setItem('products',JSON.stringify(products));
 localStorage.setItem('product',JSON.stringify(product));
 localStorage.setItem('interestList',JSON.stringify(interestList));
 
+=======
+//test comment
+>>>>>>> d62e5f387a14ef2634897706909e5dbfc11a9df0
 function App() {
     useEffect(() => {
     console.log(localStorage.getItem('user'));
